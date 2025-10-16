@@ -29,39 +29,51 @@ All modules are interconnected to form a complete and efficient execution pipeli
 
 
 <p align="center">
-  <img src="images/datapath.png" width="400" alt="Datapath">
+  <img src="ARM Processor/schemas/Datapath.png">
   <br>
   <em>Figure 1: Datapath structure of the processor</em>
 </p>
 
 
 <p align="center">
-  <img src="images/datapath.png" width="400" alt="Datapath">
+  <img src="ARM Processor/schemas/Datapath_Elaborated_Design.png">
   <br>
-  <em>Figure 1: Datapath structure of the processor</em>
+  <em>Figure 2: Datapath RTL</em>
 </p>
 
 ### 🔹 Control Unit  
 Decodes instructions and generates control signals to coordinate datapath operations for each execution phase.
 
 <p align="center">
-  <img src="images/datapath.png" width="400" alt="Datapath">
+  <img src="ARM Processor/schemas/Control_Unit.png">
   <br>
-  <em>Figure 1: Datapath structure of the processor</em>
+  <em>Figure 3: Control Unit structure of the processor</em>
+</p>
+
+<p align="center">
+  <img src="ARM Processor/schemas/Control_Unit_Elaborated_Design.png">
+  <br>
+  <em>Figure 4: Control Unit RTL</em>
 </p>
 
 ### 🔹 Finite State Machine (FSM)  
 Defines the control flow for multicycle instruction execution, sequencing states and control signals to ensure correct timing and synchronization.
 
 <p align="center">
-  <img src="images/datapath.png" width="400" alt="Datapath">
+  <img src="images/FSM.png" width="400" alt=" FSM">
   <br>
-  <em>Figure 1: Datapath structure of the processor</em>
+  <em>Figure 5: FSM</em>
 </p>
 
 ### 🔹 Processor Integration  
 The **Datapath** and **Control Unit** were combined to form the full processor.  
 Instruction memory was preloaded with ARM machine code for simulation and verification.
+
+<p align="center">
+  <img src="images/Processor.png" width="400" alt="Processor">
+  <br>
+  <em>Figure 5: Processor</em>
+</p>
 
 ---
 
