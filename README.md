@@ -60,7 +60,7 @@ Decodes instructions and generates control signals to coordinate datapath operat
 Defines the control flow for multicycle instruction execution, sequencing states and control signals to ensure correct timing and synchronization.
 
 <p align="center">
-  <img src="images/FSM.png" width="400" alt=" FSM">
+  <img src="images/FSM.png">
   <br>
   <em>Figure 5: FSM</em>
 </p>
@@ -70,7 +70,7 @@ The **Datapath** and **Control Unit** were combined to form the full processor.
 Instruction memory was preloaded with ARM machine code for simulation and verification.
 
 <p align="center">
-  <img src="images/Processor.png" width="400" alt="Processor">
+  <img src="images/Processor.png">
   <br>
   <em>Figure 5: Processor</em>
 </p>
